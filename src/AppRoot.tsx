@@ -16,10 +16,10 @@ export const AppRoot: React.FC = () => {
         </Typography>
       </AppBar>
       <Box display="flex" flexDirection="row" flexGrow={1}>
-        <Box flex={2} bgcolor="lightpink">
+        <Box flex={2}>
           <MainSidePanel />
         </Box>
-        <Box flex={5} bgcolor="lightgray">
+        <Box flex={5}>
           <Outlet />
         </Box>
       </Box>

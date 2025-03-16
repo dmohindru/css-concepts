@@ -1,8 +1,6 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import Selector from "../examples/selector/Selector";
-import Exercise1 from "../examples/selector/exercise1/Exercise1";
-import Exercise2 from "../examples/selector/exercise2/Exercise2";
+import Selector, { Exercise1, Exercise2 } from "../exercises/selector";
 const SelectorRoutes: React.FC = () => {
   return (
     <Routes>
