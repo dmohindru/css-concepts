@@ -20,7 +20,6 @@ export const AppRoot: React.FC = () => {
           <MainSidePanel />
         </Box>
         <Box flex={5} bgcolor="lightgray">
-          <Typography variant="h6">Main screen</Typography>
           <Outlet />
         </Box>
       </Box>
