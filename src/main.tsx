@@ -6,6 +6,7 @@ import {
   Route,
   RouterProvider,
 } from "react-router-dom";
+import "./global.css";
 import { AppRoot } from "./AppRoot";
 import Welcome from "./Welcome";
 import Error from "./Error";

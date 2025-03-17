@@ -6,6 +6,8 @@ import {
   AccordionSummary,
   Box,
   Typography,
+  ListItem,
+  ListItemText,
 } from "@mui/material";
 import { ArrowDropDown } from "@mui/icons-material";
 
@@ -21,9 +23,28 @@ type MenuItemProps = {
 
 const renderMenuLink = (menuLink: MenuLink): React.ReactElement => {
   return (
-    <Box marginY={0.5}>
-      <NavLink to={menuLink.linkUrl}>{menuLink.linkTitle}</NavLink>
-    </Box>
+    <NavLink
+      to={menuLink.linkUrl}
+      style={{ textDecoration: "none" }}
+      key={menuLink.linkUrl}
+    >
+      {({ isActive }) => (
+        <ListItem
+          sx={{
+            backgroundColor: isActive ? "primary.main" : "inherit",
+            color: isActive ? "white" : "inherit",
+            "&:hover": {
+              backgroundColor: isActive ? "primary.main" : "lightgrey",
+            },
+            "&:active": {
+              color: isActive ? "white" : "blue",
+            },
+          }}
+        >
+          <ListItemText>{menuLink.linkTitle}</ListItemText>
+        </ListItem>
+      )}
+    </NavLink>
   );
 };
 
@@ -35,8 +56,6 @@ const MenuItem: React.FC<MenuItemProps> = ({ title, menuLinks }) => {
       </AccordionSummary>
       <AccordionDetails>
         <Box display="flex" flexDirection="column">
-          {/* <NavLink to="/selector/exercise1">Exercise 1</NavLink>
-          <NavLink to="/selector/exercise2">Exercise 2</NavLink> */}
           {menuLinks.map((link) => renderMenuLink(link))}
         </Box>
       </AccordionDetails>
