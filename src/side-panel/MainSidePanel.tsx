@@ -5,7 +5,6 @@ export const MainSidePanel: React.FC = () => {
   return (
     <Box>
       <SelectorMenuItem />
-      <SelectorMenuItem />
     </Box>
   );
 };
