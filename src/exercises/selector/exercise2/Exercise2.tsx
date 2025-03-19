@@ -7,7 +7,7 @@ const Exercise2: React.FC = () => {
   Use a class selector to style specific items (e.g., make every item with the class highlight have a yellow background).`;
   return (
     <div className="container">
-      <ExerciseTitle content={exerciseTitle} />
+      <ExerciseTitle title="Basic Selector" content={exerciseTitle} />
       <p>Solution</p>
       <ol>
         <li>First</li>

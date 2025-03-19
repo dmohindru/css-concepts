@@ -5,7 +5,10 @@ import styles from "./exercise4.module.css";
 const Exercise4: React.FC = () => {
   return (
     <div className="container">
-      <ExerciseTitle content="Exercise 4: Place a header (h2) immediately followed by a paragraph (p) and use the adjacent sibling combinator (h2 + p) to style only the first paragraph after the header." />
+      <ExerciseTitle
+        title="Combinator"
+        content="Exercise 4: Place a header (h2) immediately followed by a paragraph (p) and use the adjacent sibling combinator (h2 + p) to style only the first paragraph after the header."
+      />
       <p>Solution</p>
       <div className={styles.sibling}>
         <h2>I am a header</h2>

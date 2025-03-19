@@ -5,7 +5,10 @@ import styles from "./exercise6.module.css";
 const Exercise6: React.FC = () => {
   return (
     <div className="container">
-      <ExerciseTitle content="Exercise 6: Add multiple elements (like p, h2, span) within a parent container and use the general sibling combinator (~) to style elements following a certain type. " />
+      <ExerciseTitle
+        title="Combinator"
+        content="Exercise 6: Add multiple elements (like p, h2, span) within a parent container and use the general sibling combinator (~) to style elements following a certain type. "
+      />
       <div className={styles.general_sibling}>
         <h2>I am header</h2>
         <p>I am paragraph 1 a general sibling of h2</p>

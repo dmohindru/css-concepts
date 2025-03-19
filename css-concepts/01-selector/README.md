@@ -11,15 +11,15 @@ Practicing selectors will build a solid foundation for targeting elements effici
    [Exercise 6](../../src/exercises/selector/exercise6/): Add multiple elements (like p, h2, span) within a parent container and use the general sibling combinator (~) to style elements following a certain type.
 
 3. Attribute Selectors
-   Exercise 7: Create a form with multiple <input> elements of different types (text, email, password, checkbox). Use attribute selectors to style all inputs of type text (input[type="text"]) with a different background color.
-   Exercise 8: Style links based on their href attribute. Make links with href that starts with "http" open in a new tab with a specific icon. Use [href^="http"] to apply styles.
-   Exercise 9: Create a set of buttons with data-action attributes (like data-action="save", data-action="delete"). Use attribute selectors to style each button differently based on its data-action value.
+   [Exercise 7](../../src/exercises/selector/exercise7/): Create a form with multiple input elements of different types (text, email, password, checkbox). Use attribute selectors to style all inputs of type text (input[type="text"]) with a different background color.
+   [Exercise 8](../../src/exercises/selector/exercise8/): Style links based on their href attribute. Make links with href that starts with "http" open in a new tab with a specific icon. Use [href^="http"] to apply styles.
+   [Exercise 9](../../src/exercises/selector/exercise9/): Create a set of buttons with data-action attributes (like data-action="save", data-action="delete"). Use attribute selectors to style each button differently based on its data-action value.
 
 4. Pseudo-classes
-   Exercise 10: Create a navigation menu with links and style the :hover and :focus states with different background and text colors.
-   Exercise 11: Make a form with multiple input fields. Use the :focus pseudo-class to change the border color of an input when it is focused.
-   Exercise 12: Create a grid or list of items, and use :nth-child(even) and :nth-child(odd) to alternate background colors.
-   Exercise 13: Add a "Read more" link to a paragraph. Use :visited to change the color of the link after it has been clicked.
+   [Exercise 10](../../src/exercises/selector/exercise10/): Create a navigation menu with links and style the :hover and :focus states with different background and text colors.
+   [Exercise 11](../../src/exercises/selector/exercise11/): Make a form with multiple input fields. Use the :focus pseudo-class to change the border color of an input when it is focused.
+   [Exercise 12](../../src/exercises/selector/exercise12/): Create a grid or list of items, and use :nth-child(even) and :nth-child(odd) to alternate background colors.
+   [Exercise 13](../../src/exercises/selector/exercise13/): Add a "Read more" link to a paragraph. Use :visited to change the color of the link after it has been clicked.
 
 5. Pseudo-elements
    Exercise 14: Use ::before and ::after pseudo-elements to add decorative content to headings. For instance, add a line or icon before each heading.

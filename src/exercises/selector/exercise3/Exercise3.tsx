@@ -5,7 +5,10 @@ import styles from "./exercise3.module.css";
 const Exercise3: React.FC = () => {
   return (
     <div className="container">
-      <ExerciseTitle content="Exercise 3: Create a div container with a h2 header and a few p elements inside. Style the p elements inside the div container using a descendant selector (div p) to apply different text colors." />
+      <ExerciseTitle
+        title="Combinator"
+        content="Exercise 3: Create a div container with a h2 header and a few p elements inside. Style the p elements inside the div container using a descendant selector (div p) to apply different text colors."
+      />
       <p>Solution</p>
       <div className={styles.descendant}>
         <div>

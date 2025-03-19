@@ -10,7 +10,7 @@ const Exercise1: React.FC = () => {
 
   return (
     <div className="container">
-      <ExerciseTitle content={exerciseTitle} />
+      <ExerciseTitle title="Basic Selector" content={exerciseTitle} />
       <div>
         <p>Solution</p>
         <div className={styles.box}>Box</div>
