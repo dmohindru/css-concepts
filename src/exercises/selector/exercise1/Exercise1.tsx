@@ -1,6 +1,6 @@
 import React from "react";
 import ExerciseTitle from "../../ExerciseTitle";
-import "./exercise1.css";
+import styles from "./exercise1.module.css";
 
 const Exercise1: React.FC = () => {
   const exerciseTitle = `Exercise 1: Create three div elements with class
@@ -13,10 +13,10 @@ const Exercise1: React.FC = () => {
       <ExerciseTitle content={exerciseTitle} />
       <div>
         <p>Solution</p>
-        <div className="box">Box</div>
-        <div className="circle">Circle</div>
-        <div className="triangle">Triangle</div>
-        <div id="square">Square</div>
+        <div className={styles.box}>Box</div>
+        <div className={styles.circle}>Circle</div>
+        <div className={styles.triangle}>Triangle</div>
+        <div id={styles.square}>Square</div>
       </div>
     </div>
   );

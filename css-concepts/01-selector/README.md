@@ -1,14 +1,14 @@
 Practicing selectors will build a solid foundation for targeting elements efficiently in your CSS. Here are some exercises to get you started with each type of selector:
 
 1. Basic Selectors
-   Exercise 1: Create three <div> elements with class names box, circle, and triangle. Use element selectors (div), class selectors (.box, .circle, .triangle), and ID selectors to style each element differently.
-   Exercise 2: Make a simple list with multiple <li> elements. Use a class selector to style specific items (e.g., make every item with the class highlight have a yellow background).
+   [Exercise 1](../../src/exercises/selector/exercise1/): Create three div elements with class names box, circle, and triangle. Use element selectors (div), class selectors (.box, .circle, .triangle), and ID selectors to style each element differently.
+   [Exercise 2](../../src/exercises/selector/exercise2/): Make a simple list with multiple li elements. Use a class selector to style specific items (e.g., make every item with the class highlight have a yellow background).
 
 2. Combinator
-   Exercise 3: Create a <div> container with a <h2> header and a few <p> elements inside. Style the <p> elements inside the <div> container using a descendant selector (div p) to apply different text colors.
-   Exercise 4: Place a header (<h2>) immediately followed by a paragraph (<p>) and use the adjacent sibling combinator (h2 + p) to style only the first paragraph after the header.
-   Exercise 5: Create a list with nested <ul> elements. Use the child combinator (>) to style only the top-level <li> items.
-   Exercise 6: Add multiple elements (like <p>, <h2>, <span>) within a parent container and use the general sibling combinator (~) to style elements following a certain type.
+   [Exercise 3](../../src/exercises/selector/exercise3/): Create a div container with a h2 header and a few p elements inside. Style the p elements inside the div container using a descendant selector (div p) to apply different text colors.
+   [Exercise 4](../../src/exercises/selector/exercise4/): Place a header (h2) immediately followed by a paragraph (p) and use the adjacent sibling combinator (h2 + p) to style only the first paragraph after the header.
+   [Exercise 5](../../src/exercises/selector/exercise5/): Create a list with nested ul elements. Use the child combinator (>) to style only the top-level li items.
+   [Exercise 6](../../src/exercises/selector/exercise6/): Add multiple elements (like p, h2, span) within a parent container and use the general sibling combinator (~) to style elements following a certain type.
 
 3. Attribute Selectors
    Exercise 7: Create a form with multiple <input> elements of different types (text, email, password, checkbox). Use attribute selectors to style all inputs of type text (input[type="text"]) with a different background color.

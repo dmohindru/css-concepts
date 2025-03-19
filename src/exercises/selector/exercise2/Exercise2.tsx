@@ -1,6 +1,6 @@
 import React from "react";
 import ExerciseTitle from "../../ExerciseTitle";
-import "./exercise2.css";
+import styles from "./exercise2.module.css";
 
 const Exercise2: React.FC = () => {
   const exerciseTitle = `Exercise2: Make a simple list with multiple <li> elements. 
@@ -11,9 +11,9 @@ const Exercise2: React.FC = () => {
       <p>Solution</p>
       <ol>
         <li>First</li>
-        <li className="blueBackground">Second</li>
+        <li className={styles.blueBackground}>Second</li>
         <li>Third</li>
-        <li className="blueBackground">Fourth</li>
+        <li className={styles.blueBackground}>Fourth</li>
         <li>Fifth</li>
       </ol>
     </div>
