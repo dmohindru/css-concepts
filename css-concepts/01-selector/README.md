@@ -16,7 +16,7 @@ Practicing selectors will build a solid foundation for targeting elements effici
    [Exercise 9](../../src/exercises/selector/exercise9/): Create a set of buttons with data-action attributes (like data-action="save", data-action="delete"). Use attribute selectors to style each button differently based on its data-action value.
 
 4. Pseudo-classes
-   [Exercise 10](../../src/exercises/selector/exercise10/): Create a navigation menu with links and style the :hover and :focus states with different background and text colors.
+   [Exercise 10](../../src/exercises/selector/exercise10/): Create a buttons and style with the :hover and :focus states with different background and text colors.
    [Exercise 11](../../src/exercises/selector/exercise11/): Make a form with multiple input fields. Use the :focus pseudo-class to change the border color of an input when it is focused.
    [Exercise 12](../../src/exercises/selector/exercise12/): Create a grid or list of items, and use :nth-child(even) and :nth-child(odd) to alternate background colors.
    [Exercise 13](../../src/exercises/selector/exercise13/): Add a "Read more" link to a paragraph. Use :visited to change the color of the link after it has been clicked.
