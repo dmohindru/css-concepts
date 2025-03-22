@@ -19,6 +19,13 @@ const SelectorMenuItem: React.FC = () => {
         { linkTitle: "Exercise 11", linkUrl: "/selector/exercise11" },
         { linkTitle: "Exercise 12", linkUrl: "/selector/exercise12" },
         { linkTitle: "Exercise 13", linkUrl: "/selector/exercise13" },
+        { linkTitle: "Exercise 14", linkUrl: "/selector/exercise14" },
+        { linkTitle: "Exercise 15", linkUrl: "/selector/exercise15" },
+        { linkTitle: "Exercise 16", linkUrl: "/selector/exercise16" },
+        { linkTitle: "Exercise 17", linkUrl: "/selector/exercise17" },
+        { linkTitle: "Exercise 18", linkUrl: "/selector/exercise18" },
+        { linkTitle: "Exercise 19", linkUrl: "/selector/exercise19" },
+        { linkTitle: "Exercise 20", linkUrl: "/selector/exercise20" },
       ]}
     />
   );

@@ -14,6 +14,13 @@ import Selector, {
   Exercise11,
   Exercise12,
   Exercise13,
+  Exercise14,
+  Exercise15,
+  Exercise16,
+  Exercise17,
+  Exercise18,
+  Exercise19,
+  Exercise20,
 } from "../exercises/selector";
 const SelectorRoutes: React.FC = () => {
   return (
@@ -32,6 +39,13 @@ const SelectorRoutes: React.FC = () => {
       <Route path="exercise11" element={<Exercise11 />} />
       <Route path="exercise12" element={<Exercise12 />} />
       <Route path="exercise13" element={<Exercise13 />} />
+      <Route path="exercise14" element={<Exercise14 />} />
+      <Route path="exercise15" element={<Exercise15 />} />
+      <Route path="exercise16" element={<Exercise16 />} />
+      <Route path="exercise17" element={<Exercise17 />} />
+      <Route path="exercise18" element={<Exercise18 />} />
+      <Route path="exercise19" element={<Exercise19 />} />
+      <Route path="exercise20" element={<Exercise20 />} />
     </Routes>
   );
 };

@@ -1,8 +1,8 @@
 import React from "react";
 import ExerciseTitle from "../../ExerciseTitle";
-import styles from "./exercise13.module.css";
+import styles from "./exercise18.module.css";
 
-const Exercise13: React.FC = () => {
+const Exercise18: React.FC = () => {
   return (
     <div className="container">
       <ExerciseTitle
@@ -17,4 +17,4 @@ const Exercise13: React.FC = () => {
   );
 };
 
-export default Exercise13;
+export default Exercise18;

@@ -11,6 +11,13 @@ import Exercise10 from "./exercise10/Exercise10";
 import Exercise11 from "./exercise11/Exercise11";
 import Exercise12 from "./exercise12/Exercise12";
 import Exercise13 from "./exercise13/Exercise13";
+import Exercise14 from "./exercise14/Exercise14";
+import Exercise15 from "./exercise15/Exercise15";
+import Exercise16 from "./exercise16/Exercise16";
+import Exercise17 from "./exercise17/Exercise17";
+import Exercise18 from "./exercise18/Exercise18";
+import Exercise19 from "./exercise19/Exercise19";
+import Exercise20 from "./exercise20/Exercise20";
 import Selector from "./Selector";
 
 export {
@@ -27,5 +34,12 @@ export {
   Exercise11,
   Exercise12,
   Exercise13,
+  Exercise14,
+  Exercise15,
+  Exercise16,
+  Exercise17,
+  Exercise18,
+  Exercise19,
+  Exercise20,
 };
 export default Selector;
