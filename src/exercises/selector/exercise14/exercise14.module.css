@@ -1,15 +1,18 @@
-.link {
-    padding: 20px;
-    background-color: lightyellow;
-    width: 100px;
-    text-align: center;
-    text-decoration: none;
+.headingWithLine h3::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: black;
+    margin-bottom: 8px;
 }
 
-.link:visited {
-    background-color: lightgreen;
-}
-
-.link:hover {
-    background-color: lightblue;
+.headingWithLine h3::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: gray;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }

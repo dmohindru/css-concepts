@@ -6,13 +6,14 @@ const Exercise14: React.FC = () => {
   return (
     <div className="container">
       <ExerciseTitle
-        title="Pseudo-classes"
-        content="Add a 'Read more' link to a paragraph. Use :visited to change the color of the link after it has been clicked."
+        title="Pseudo-elements"
+        content="Use ::before and ::after pseudo-elements to add decorative content to headings. For instance, add a line or icon before each heading."
       />
       <p>Solution</p>
-      <a className={styles.link} href="https://www.google.com" target="_blank">
-        Read more
-      </a>
+      <div className={styles.headingWithLine}>
+        <h3>Section title 1</h3>
+        <h3>Section title 2</h3>
+      </div>
     </div>
   );
 };

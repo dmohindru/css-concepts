@@ -6,13 +6,15 @@ const Exercise16: React.FC = () => {
   return (
     <div className="container">
       <ExerciseTitle
-        title="Pseudo-classes"
-        content="Add a 'Read more' link to a paragraph. Use :visited to change the color of the link after it has been clicked."
+        title="Pseudo-elements"
+        content="Add an initial drop cap effect to the first letter of a paragraph using ::first-letter."
       />
       <p>Solution</p>
-      <a className={styles.link} href="https://www.google.com" target="_blank">
-        Read more
-      </a>
+      <div className={styles.dropCap}>
+        <p>This is a paragraph number one has initial drop effect</p>
+        <p>This is a paragraph number two has initial drop effect</p>
+      </div>
+      <p>This is a paragraph number three doesn't have a initial drop effect</p>
     </div>
   );
 };

@@ -1,15 +1,11 @@
-.link {
-    padding: 20px;
-    background-color: lightyellow;
-    width: 100px;
-    text-align: center;
-    text-decoration: none;
+.quote p::before {
+  content: '"';
+  font-size: 2rem;
+  color: #f00;
 }
 
-.link:visited {
-    background-color: lightgreen;
-}
-
-.link:hover {
-    background-color: lightblue;
+.quote p::after {
+    content: '"';
+    font-size: 2rem;
+    color: #f00;
 }
