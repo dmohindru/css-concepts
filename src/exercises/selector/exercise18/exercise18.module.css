@@ -1,15 +1,19 @@
-.link {
-    padding: 20px;
-    background-color: lightyellow;
-    width: 100px;
-    text-align: center;
-    text-decoration: none;
+.listStyle li {
+    margin: 5px;
+    list-style: circle;
 }
 
-.link:visited {
-    background-color: lightgreen;
+.listStyle li:nth-child(even) {
+    color: red;
 }
 
-.link:hover {
-    background-color: lightblue;
+.listStyle li:nth-child(odd):hover {
+    background-color: blue;
+    color: white;
 }
+
+.listStyle li:nth-child(even):hover {
+    background-color: black;
+    color: white;
+}
+

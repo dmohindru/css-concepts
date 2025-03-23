@@ -1,15 +1,4 @@
-.link {
-    padding: 20px;
-    background-color: lightyellow;
-    width: 100px;
-    text-align: center;
-    text-decoration: none;
-}
-
-.link:visited {
-    background-color: lightgreen;
-}
-
-.link:hover {
-    background-color: lightblue;
+.highlight p::selection {
+    background-color: red;
+    color: white;
 }
