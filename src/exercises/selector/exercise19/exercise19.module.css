@@ -1,15 +1,13 @@
-.link {
-    padding: 20px;
-    background-color: lightyellow;
-    width: 100px;
-    text-align: center;
-    text-decoration: none;
+.firstWord {
+    font-weight: bold;
+    color: red;
 }
 
-.link:visited {
-    background-color: lightgreen;
+.thirdWord:nth-of-type(3n) {
+    font-style: italic;
+    text-decoration: underline;
 }
 
-.link:hover {
-    background-color: lightblue;
+.highlight {
+    background-color: yellow;
 }

@@ -6,13 +6,16 @@ const Exercise19: React.FC = () => {
   return (
     <div className="container">
       <ExerciseTitle
-        title="Pseudo-classes"
-        content="Add a 'Read more' link to a paragraph. Use :visited to change the color of the link after it has been clicked."
+        title="Challenge Exercise: Combined Selectors"
+        content="Style a paragraph where only the **first word** is bold and colored differently. Use combinators and pseudo-classes to style specific words, such as italicizing every **third word** and highlighting words that contain the letter 'e'."
       />
       <p>Solution</p>
-      <a className={styles.link} href="https://www.google.com" target="_blank">
-        Read more
-      </a>
+      <p>
+        <span className={styles.firstWord}>Hello</span> this is a{" "}
+        <span className={styles.highlight}>test</span> paragraph where{" "}
+        <span className={styles.thirdWord}>every</span> third word is{" "}
+        <span className={styles.thirdWord}>italicized</span>.
+      </p>
     </div>
   );
 };

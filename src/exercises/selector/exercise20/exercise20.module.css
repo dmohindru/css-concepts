@@ -1,15 +1,9 @@
-.link {
-    padding: 20px;
-    background-color: lightyellow;
-    width: 100px;
-    text-align: center;
-    text-decoration: none;
+.blockStyle::first-letter {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    color: red;
 }
 
-.link:visited {
-    background-color: lightgreen;
-}
-
-.link:hover {
-    background-color: lightblue;
+.blockStyle:hover {
+    background-color: yellow;
 }

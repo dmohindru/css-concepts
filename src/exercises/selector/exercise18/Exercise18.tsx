@@ -6,7 +6,7 @@ const Exercise18: React.FC = () => {
   return (
     <div className="container">
       <ExerciseTitle
-        title="Pseudo-classes"
+        title="Challenge Exercise: Combined Selectors"
         content="Create an unordered list where every even list item (li:nth-child(even)) has a different text color. Additionally, apply a hover effect that changes the background color differently when the user hovers over odd and even list item."
       />
       <p>Solution</p>
