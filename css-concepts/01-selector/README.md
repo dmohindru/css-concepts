@@ -34,6 +34,6 @@ Practicing selectors will build a solid foundation for targeting elements effici
 
 ### Challenge Exercise: Combined Selectors
 
-- [Exercise 18](../../src/exercises/selector/exercise18/): Create an unordered list where every even list item (li:nth-child(even)) has a different text color. Additionally, apply a hover effect that changes the background color differently when the user hovers over odd and even list item.
-- [Exercise 19](../../src/exercises/selector/exercise19/): Style a paragraph where only the **first word** is bold and colored differently. Use combinators and pseudo-classes to style specific words, such as italicizing every **third word** and highlighting words that contain the letter "e".
-- [Exercise 20](../../src/exercises/selector/exercise20/): Style a **blockquote** where the **first letter** appears differently. Use combinators and pseudo-classes to style emphasized (`em`) and bold (`strong`) words uniquely. Add a hover effect that changes the background color of the blockquote.
+- [Exercise 18](../../src/exercises/selector/exercise18/): Create a table with alternating row colors, but style only the even rows in a specific column. For example, use the following selector: table tr:nth-child(even) td:nth-child(2) to style only the cells in the second column for even rows.
+- [Exercise 19](../../src/exercises/selector/exercise19/): Build a simple card layout with different sections inside each card. Use combinators and pseudo-classes to style only the first card and apply different styles to sections within it.
+- [Exercise 20](../../src/exercises/selector/exercise20/): Create a form with multiple sections, each containing several input fields. Use a combination of pseudo-classes and attribute selectors to style various input types based on focus, checked state, or required attribute (e.g., input:required or input:checked).

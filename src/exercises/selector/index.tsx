@@ -18,7 +18,6 @@ import Exercise17 from "./exercise17/Exercise17";
 import Exercise18 from "./exercise18/Exercise18";
 import Exercise19 from "./exercise19/Exercise19";
 import Exercise20 from "./exercise20/Exercise20";
-import Selector from "./Selector";
 
 export {
   Exercise1,
@@ -42,4 +41,3 @@ export {
   Exercise19,
   Exercise20,
 };
-export default Selector;

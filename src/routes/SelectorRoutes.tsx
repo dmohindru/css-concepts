@@ -1,6 +1,6 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import Selector, {
+import {
   Exercise1,
   Exercise2,
   Exercise3,
@@ -25,7 +25,6 @@ import Selector, {
 const SelectorRoutes: React.FC = () => {
   return (
     <Routes>
-      <Route path="/" element={<Selector />} />
       <Route path="exercise1" element={<Exercise1 />} />
       <Route path="exercise2" element={<Exercise2 />} />
       <Route path="exercise3" element={<Exercise3 />} />

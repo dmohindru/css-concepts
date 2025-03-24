@@ -1,0 +1,13 @@
+.formText input[type="text"] {
+  background-color: black;
+  color: white;
+}
+
+.formText input[type="password"] {
+    background-color: darkred;
+    color: white;
+}
+
+.formText input[type="email"] {
+    background-color: darkorange;
+}
