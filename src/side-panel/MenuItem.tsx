@@ -33,6 +33,8 @@ const renderMenuLink = (menuLink: MenuLink): React.ReactElement => {
           sx={{
             backgroundColor: isActive ? "primary.main" : "inherit",
             color: isActive ? "white" : "inherit",
+            padding: "4px 8px", // Reduced padding for smaller size
+            fontSize: "0.875rem", // Smaller font size
             "&:hover": {
               backgroundColor: isActive ? "primary.main" : "lightgrey",
             },
@@ -41,7 +43,13 @@ const renderMenuLink = (menuLink: MenuLink): React.ReactElement => {
             },
           }}
         >
-          <ListItemText>{menuLink.linkTitle}</ListItemText>
+          <ListItemText
+            primaryTypographyProps={{
+              fontSize: "0.875rem", // Smaller font size for text
+            }}
+          >
+            {menuLink.linkTitle}
+          </ListItemText>
         </ListItem>
       )}
     </NavLink>
@@ -50,9 +58,25 @@ const renderMenuLink = (menuLink: MenuLink): React.ReactElement => {
 
 const MenuItem: React.FC<MenuItemProps> = ({ title, menuLinks }) => {
   return (
-    <Accordion>
+    <Accordion
+      sx={{
+        margin: "4px 0", // Reduced margin for compact spacing
+        "& .MuiAccordionSummary-root": {
+          minHeight: "32px", // Reduced height for AccordionSummary
+        },
+        "& .MuiAccordionSummary-content": {
+          margin: "4px 0", // Reduced margin for content
+        },
+      }}
+    >
       <AccordionSummary expandIcon={<ArrowDropDown />}>
-        <Typography variant="h6">{title}</Typography>
+        <Typography
+          fontWeight="bold"
+          variant="subtitle1"
+          sx={{ fontSize: "0.875rem" }}
+        >
+          {title}
+        </Typography>
       </AccordionSummary>
       <AccordionDetails>
         <Box display="flex" flexDirection="column">
