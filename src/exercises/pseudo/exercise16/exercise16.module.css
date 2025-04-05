@@ -1,0 +1,4 @@
+.dropCap p::first-letter {
+  text-transform: lowercase;
+  color: red;
+}

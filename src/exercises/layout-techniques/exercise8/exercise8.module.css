@@ -1,0 +1,15 @@
+.links a[href^="http"] {
+    color: blue;
+    text-decoration: underline;
+    position: relative;
+    padding-right: 20px;
+    /* Space for the icon */
+}
+
+.links a[href^="http"]::after {
+    content: "🔗";
+    /* Unicode icon for external link */
+    position: absolute;
+    right: 0;
+    font-size: 14px;
+}

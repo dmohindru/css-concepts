@@ -1,0 +1,13 @@
+.firstWord {
+    font-weight: bold;
+    color: red;
+}
+
+.thirdWord:nth-of-type(3n) {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.highlight {
+    background-color: yellow;
+}

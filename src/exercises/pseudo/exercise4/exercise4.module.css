@@ -1,0 +1,4 @@
+.sibling h2 + p {
+    background-color: darkblue;
+    color: white;
+}

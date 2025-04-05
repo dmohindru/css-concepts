@@ -1,0 +1,21 @@
+div {
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.box {
+    background-color: lightblue;
+}
+
+.circle {
+    background-color: lightgreen;
+}
+
+.triangle {
+    background-color: lightcoral;
+}
+
+#square {
+    background-color: lightyellow;
+}

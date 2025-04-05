@@ -1,0 +1,19 @@
+.listStyle li {
+    margin: 5px;
+    list-style: circle;
+}
+
+.listStyle li:nth-child(even) {
+    color: red;
+}
+
+.listStyle li:nth-child(odd):hover {
+    background-color: blue;
+    color: white;
+}
+
+.listStyle li:nth-child(even):hover {
+    background-color: black;
+    color: white;
+}
+

@@ -1,0 +1,14 @@
+.menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu > li {
+    font-weight: bold;
+    color: blue;
+    padding: 5px;
+}
+
+ .menu > li ul li {
+    color: black;
+}

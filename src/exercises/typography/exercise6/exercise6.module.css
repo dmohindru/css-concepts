@@ -1,0 +1,9 @@
+.general_sibling h2 ~ p {
+    background-color: black;
+    color: white;
+}
+
+.general_sibling h2 ~ span {
+    background-color: lightblue;
+    font-style: italic;
+}

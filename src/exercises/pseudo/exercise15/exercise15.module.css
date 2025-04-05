@@ -1,0 +1,11 @@
+.quote p::before {
+  content: '"';
+  font-size: 2rem;
+  color: #f00;
+}
+
+.quote p::after {
+    content: '"';
+    font-size: 2rem;
+    color: #f00;
+}

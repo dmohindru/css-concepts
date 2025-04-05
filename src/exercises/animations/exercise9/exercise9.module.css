@@ -1,0 +1,13 @@
+.dataAction button[data-action="delete"] {
+  background-color: red;
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.dataAction button[data-action="save"] {
+    background-color: green;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

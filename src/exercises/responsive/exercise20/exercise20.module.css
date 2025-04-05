@@ -1,0 +1,9 @@
+.blockStyle::first-letter {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    color: red;
+}
+
+.blockStyle:hover {
+    background-color: yellow;
+}
