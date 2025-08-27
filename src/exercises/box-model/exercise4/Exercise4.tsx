@@ -3,20 +3,16 @@ import ExerciseTitle from "../../ExerciseTitle";
 import styles from "./exercise4.module.css";
 
 const Exercise4: React.FC = () => {
-  throw new Error("Not implemented");
   return (
     <div className="container">
       <ExerciseTitle
-        title="Combinator"
-        content="Exercise 4: Place a header (h2) immediately followed by a paragraph (p) and use the adjacent sibling combinator (h2 + p) to style only the first paragraph after the header."
+        title="Margin"
+        content="Create two horizontally aligned boxes. Apply a large left margin to one of them and see how it affects their positioning. Experiment with auto values on margins to center-align elements within their container."
       />
-      <p>Solution</p>
-      <div className={styles.sibling}>
-        <h2>I am a header</h2>
-        <p>I am first paragraph sibling of h2</p>
-        <p>I am second paragraph sibling of h2</p>
+      <div className={styles.parent}>
+        <div className={`${styles.boxStyle} ${styles.first}`}></div>
+        <div className={`${styles.boxStyle} ${styles.second}`}></div>
       </div>
-      <p>I am a paragraph and not a sibling of any h2</p>
     </div>
   );
 };

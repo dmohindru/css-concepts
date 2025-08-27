@@ -1,3 +1,31 @@
-.blueBackground {
-    background-color: lightblue;;
+.parent {
+    width: 400px;
+    height: 800px;
+    border: 2px solid black;
+    margin-left: 20px;
+}
+
+p {
+    background-color: blue;
+    color: white;
+}
+
+.boxStyle {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+}
+
+.borderBox {
+    padding: 50px;
+    margin: 50px;
+    box-sizing: border-box;
+    background-color: grey;
+}
+
+.contentBox {
+    padding: 50px;
+    margin: 50px;
+    box-sizing: content-box;
+    background-color: lightgray;
 }

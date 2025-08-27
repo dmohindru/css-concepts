@@ -3,23 +3,17 @@ import ExerciseTitle from "../../ExerciseTitle";
 import styles from "./exercise3.module.css";
 
 const Exercise3: React.FC = () => {
-  throw new Error("Not implemented");
   return (
     <div className="container">
       <ExerciseTitle
-        title="Combinator"
-        content="Exercise 3: Create a div container with a h2 header and a few p elements inside. Style the p elements inside the div container using a descendant selector (div p) to apply different text colors."
+        title="Margin"
+        content="Create a series of div elements stacked vertically. Apply different margin values (positive and negative) to see how they affect spacing between elements. Use different margins for each side (top, right, bottom, left) to explore how each impacts positioning."
       />
-      <p>Solution</p>
-      <div className={styles.descendant}>
-        <div>
-          <h2>I am a header inside a div</h2>
-          <p>I am paragraph 1 inside a div</p>
-          <p>I am paragraph 2 inside a div</p>
-          <p>I am paragraph 3 inside a div</p>
-        </div>
+      <div className={styles.parent}>
+        <div className={`${styles.boxStyle} ${styles.first}`}></div>
+        <div className={`${styles.boxStyle} ${styles.second}`}></div>
+        <div className={`${styles.boxStyle} ${styles.third}`}></div>
       </div>
-      <p>I am a paragraph outside a div</p>
     </div>
   );
 };
