@@ -4,3 +4,32 @@
     border: 2px solid black;
     margin-left: 20px;
 }
+
+p {
+    background-color: blue;
+    color: white;
+}
+
+.boxStyle {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+}
+
+.first {
+    margin: 10px;
+    padding: 50px;
+    background-color: red;
+}
+
+.second {
+    margin-left: 50px;
+    padding: 10px;
+    background-color: red;
+}
+
+.third {
+    margin-left: -10px;
+    padding: 5px;
+    background-color: red;
+}
