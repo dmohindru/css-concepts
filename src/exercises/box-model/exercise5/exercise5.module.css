@@ -1,14 +1,22 @@
-.menu {
-    list-style-type: none;
-    padding: 0;
+.parent {
+    width: 400px;
+    height: 800px;
+    border: 2px solid black;
+    margin-left: 20px;
 }
 
-.menu > li {
-    font-weight: bold;
-    color: blue;
-    padding: 5px;
+.boxStyle {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
 }
 
- .menu > li ul li {
-    color: black;
+.first {
+    margin: 40px;
+    background-color: lightcoral;
+}
+
+.second {
+    margin: 40px;
+    background-color: lightblue;
 }
