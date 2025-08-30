@@ -1,9 +1,30 @@
-.general_sibling h2 ~ p {
-    background-color: black;
-    color: white;
+.parent {
+    width: 400px;
+    height: 800px;
+    border: 2px solid black;
+    margin-left: 20px;
 }
 
-.general_sibling h2 ~ span {
-    background-color: lightblue;
-    font-style: italic;
+.boxStyle {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+}
+
+.first {
+    margin: 40px;
+    background-color: lightcoral;
+    padding: 30px;
+}
+
+.second {
+    margin: 40px;
+    background-color: lightcoral;
+    padding: 10px;
+
+}
+
+p {
+    background-color: black;
+    color: white;
 }
