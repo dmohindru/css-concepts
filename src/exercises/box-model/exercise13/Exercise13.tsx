@@ -3,17 +3,17 @@ import ExerciseTitle from "../../ExerciseTitle";
 import styles from "./exercise13.module.css";
 
 const Exercise13: React.FC = () => {
-  throw new Error("Not implemented");
   return (
     <div className="container">
       <ExerciseTitle
-        title="Pseudo-classes"
-        content="Add a 'Read more' link to a paragraph. Use :visited to change the color of the link after it has been clicked."
+        title="Box Sizing"
+        content="Create a responsive layout with a few boxes of different widths. Set box-sizing: border-box on all boxes to prevent overflow issues when padding and borders are added."
       />
-      <p>Solution</p>
-      <a className={styles.link} href="https://www.google.com" target="_blank">
-        Read more
-      </a>
+      <div className={styles.parent}>
+        <div className={`${styles.boxStyle} ${styles.first}`}></div>
+        <div className={`${styles.boxStyle} ${styles.second}`}></div>
+        <div className={`${styles.boxStyle} ${styles.third}`}></div>
+      </div>
     </div>
   );
 };
