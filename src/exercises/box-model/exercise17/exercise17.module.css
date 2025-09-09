@@ -1,4 +1,35 @@
-.highlight p::selection {
-    background-color: red;
-    color: white;
+.parent {
+    width: 400px;
+    height: 800px;
+    border: 2px solid black;
+    margin-left: 20px;
+}
+
+.childY {
+    background-color: lightcoral;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    margin: 20px;
+    overflow: auto;
+}
+
+.childX {
+    background-color: lightcoral;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    margin: 20px;
+    overflow-x: auto;
+    display: flex;
+}
+
+.grandChild {
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    background-color: lightblue;
+    margin: auto;
+    margin: 10px;
+    flex-shrink: 0;
 }
