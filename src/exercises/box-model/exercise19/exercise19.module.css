@@ -1,13 +1,42 @@
-.firstWord {
+.parent {
+    width: 600px;
+    height: 800px;
+    border: 2px solid black;
+    margin-left: 20px;
+    padding: 20px;
+}
+
+.child {
+    width: 500px;
+    height: 200px;
+    background-color: lightblue;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.myButton {
+    width: 150px;
+    height: 50px;
+    border-bottom: 10px solid violet;
+    border-right: 10px solid violet;
+    border-radius: 5px;
+    color: white;
+    background-color: blueviolet;
+    font-size: large;
     font-weight: bold;
-    color: red;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    transition: background 0.2s, transform 0.1s;
 }
 
-.thirdWord:nth-of-type(3n) {
-    font-style: italic;
-    text-decoration: underline;
+.myButton:hover {
+    background-color: indigo;
+    cursor: pointer;
+    transform: translateY(-2px);
 }
 
-.highlight {
-    background-color: yellow;
+.myButton:active {
+    background-color: rebeccapurple;
+    transform: translateY(2px);
 }

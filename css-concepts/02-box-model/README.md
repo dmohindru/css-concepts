@@ -43,10 +43,8 @@ The CSS Box Model is essential for understanding layout and spacing, as it defin
 - [Exercise 18](../../src/exercises/box-model/exercise18/): Create a button with a shadow effect using margin and padding. Add a bottom margin and padding to create an "elevated" look. Apply padding inside the button to increase the text spacing.
 - [Exercise 19](../../src/exercises/box-model/exercise19/): Create a layout with multiple boxes in a row. Use padding and margins to space them evenly. Try to achieve equal spacing around each box and practice adjusting margins to control spacing between elements without affecting alignment.
 
-### Challenge Exercises
+### Mini Project
 
 - [Exercise 20](../../src/exercises/box-model/exercise20/): Build a "card" component with a title, image, and text. Use the box model to give it a consistent padding, add a border to separate each card visually, and use margin to add space between multiple cards.
-- [Exercise 21](../../src/exercises/box-model/exercise21/): Design a profile card with padding around content, a border with rounded corners, and margin to separate it from other content on the page. Add padding inside the card for visual balance and experiment with the box-shadow property to give it depth.
-- [Exercise 22](../../src/exercises/box-model/exercise22/): Create a simple dashboard layout with boxes representing widgets. Use padding inside each widget box for spacing, margin between the widgets for separation, and borders for a finished look. Set a max-width on the container and use margin: auto to center it.
 
 These exercises will help you understand the box model's impact on layout and how elements interact with each other through spacing. Let me know if you'd like more exercises or tips for any specific area!

@@ -24,10 +24,10 @@
 .myButton:hover {
     background-color: indigo;
     cursor: pointer;
-    transform: translateY(-2px) translateX(-2px);
+    transform: translateY(-2px);
 }
 
 .myButton:active {
     background-color: rebeccapurple;
-    transform: translateY(2px) translateX(2px);
+    transform: translateY(2px);
 }
