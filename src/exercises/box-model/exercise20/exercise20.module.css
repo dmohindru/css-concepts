@@ -1,9 +1,96 @@
-.blockStyle::first-letter {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 2em;
-    color: red;
+.container {
+    width: 600px;
+    height: 800px;
+    border: 2px solid black;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.blockStyle:hover {
-    background-color: yellow;
+.cardBox {
+    border: 2px solid black;
+    width: 400px;
+    height: 600px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.cardImage {
+    flex: 1;
+    width: 100%;
+    background-image: url(./bg.jpg);
+    background-position: center;
+    margin-bottom: -1px;
+    margin-top: -1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.title {
+    color: white;
+    text-transform: uppercase;
+    font-size: x-large;
+}
+
+.position {
+    color: white;
+    font-size: large;
+}
+
+.imageContainer {
+    background-color: white;
+    padding: 5px;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imageContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+}
+
+.followButton {
+    background-color: lightgreen;
+    /* color: white; */
+    border-radius: 10px;
+    transition: background 0.2s;
+    text-transform: uppercase;
+    font-size: small;
+    font-weight: bold;
+    width: 100px;
+    height: 25px;
+}
+
+.followButton:hover {
+    background-color: lightseagreen;
+    cursor: pointer;
+}
+
+.followButton:active {
+    background-color: lightskyblue;
+}
+
+.cardText {
+    flex: 1;
+    width: 100%;
+    background-color: red;
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -1px;
+    margin-top: -1px;
 }
