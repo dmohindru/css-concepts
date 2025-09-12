@@ -1,41 +1,29 @@
-.form {
-    border: 2px;
-    border-style: solid;
-    margin-top: 10px;
-    margin-bottom: 10px;
+.parent {
+    width: 400px;
+    height: 800px;
+    border: 2px solid black;
+    margin-left: 20px;
 }
 
-.form input {
-    border: 2px;
-    background-color: gray;
-    color: white;
-    margin: 5px;
-    padding: 10px;
+.boxSize {
+    width: 200px;
+    height: 200px;
+}
+
+.first {
+    margin: 40px;
+    background-color: lightcoral;
     border-radius: 5px;
 }
 
-.form button {
-    height: 40px;
-    text-align: center;
-    border-radius: 5px;
-    margin: 5px;
+.second {
+    margin: 40px;
+    background-color: lightblue;
+    border-radius: 20px;
 }
 
-.form button[type="submit"] {
-    background-color: blue;
-    color: white;
-}
-
-.form button[data-action="cancel"] {
-    background-color: red;
-    color: white;
-}
-
-.form input:focus {
-    background-color: white;
-    color: black;
-}
-
-.form input::placeholder {
-    color: black;
+.third {
+    margin: 40px;
+    background-color: lightgreen;
+    border-radius: 50%;
 }

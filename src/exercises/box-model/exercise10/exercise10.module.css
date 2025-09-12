@@ -1,19 +1,25 @@
-.button {
-    background-color: lightgray;
-    color: black;
-    width: 100px;
-    height: 100px;
-    padding: 10px;
-    text-align: center;
-    border-radius: 50%;
+.parent {
+    width: 400px;
+    height: 800px;
+    border: 2px solid black;
+    padding: 20px;
+    margin-left: 20px;
 }
 
-.button:hover {
-    background-color: lightblue;
-    color: black;
-}
-
-.button:focus {
-    background-color: green;
-    color: white;
+.first {
+    margin:auto;
+    width: 200px;
+    height: 200px;
+    border-bottom: 10px;
+    border-top: 20px;
+    border-left: 30px;
+    border-right: 40px;
+    border-top-style: dotted;
+    border-top-color: lightblue;
+    border-bottom-style: dashed;
+    border-bottom-color: lightcoral;
+    border-left-style: double;
+    border-left-color: aqua;
+    border-right-style: ridge;
+    border-right-color: black;
 }

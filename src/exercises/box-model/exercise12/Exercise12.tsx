@@ -3,50 +3,16 @@ import ExerciseTitle from "../../ExerciseTitle";
 import styles from "./exercise12.module.css";
 
 const Exercise12: React.FC = () => {
-  throw new Error("Not implemented");
   return (
     <div className="container">
       <ExerciseTitle
-        title="Pseudo-classes"
-        content="Create a table and use :nth-child(even) and :nth-child(odd) to alternate background colors."
+        title="Box Sizing"
+        content="Create two boxes with identical width, height, padding, and border values. Set box-sizing: content-box for one and box-sizing: border-box for the other. Observe how each box's total size differs based on the box-sizing value."
       />
-      <p>Solution</p>
-      <table className={styles.table}>
-        <thead>
-          <tr>
-            <th>Header 1</th>
-            <th>Header 2</th>
-            <th>Header 3</th>
-            <th>Header 4</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Row 1, Cell 1</td>
-            <td>Row 1, Cell 2</td>
-            <td>Row 1, Cell 3</td>
-            <td>Row 1, Cell 4</td>
-          </tr>
-          <tr>
-            <td>Row 2, Cell 1</td>
-            <td>Row 2, Cell 2</td>
-            <td>Row 2, Cell 3</td>
-            <td>Row 2, Cell 4</td>
-          </tr>
-          <tr>
-            <td>Row 3, Cell 1</td>
-            <td>Row 3, Cell 2</td>
-            <td>Row 3, Cell 3</td>
-            <td>Row 3, Cell 4</td>
-          </tr>
-          <tr>
-            <td>Row 4, Cell 1</td>
-            <td>Row 4, Cell 2</td>
-            <td>Row 4, Cell 3</td>
-            <td>Row 4, Cell 4</td>
-          </tr>
-        </tbody>
-      </table>
+      <div className={styles.parent}>
+        <div className={`${styles.boxStyle} ${styles.first}`}></div>
+        <div className={`${styles.boxStyle} ${styles.second}`}></div>
+      </div>
     </div>
   );
 };

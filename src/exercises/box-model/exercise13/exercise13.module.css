@@ -1,15 +1,31 @@
-.link {
-    padding: 20px;
-    background-color: lightyellow;
-    width: 100px;
-    text-align: center;
-    text-decoration: none;
+.parent {
+    width: 800px;
+    height: 800px;
+    border: 2px solid black;
+    margin-left: 20px;
+    display: flex;
 }
 
-.link:visited {
-    background-color: lightgreen;
+.boxStyle {
+    width: 200px;
+    height: 200px;
+    border: 10px solid black;
 }
 
-.link:hover {
+.first {
+    margin: 40px;
+    background-color: lightcoral;
+    box-sizing: border-box;
+}
+
+.second {
+    margin: 40px;
     background-color: lightblue;
+    box-sizing: border-box;
+}
+
+.third {
+    margin: 40px;
+    background-color: lightgreen;
+    box-sizing: border-box;
 }

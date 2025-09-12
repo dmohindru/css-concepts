@@ -3,20 +3,19 @@ import ExerciseTitle from "../../ExerciseTitle";
 import styles from "./exercise19.module.css";
 
 const Exercise19: React.FC = () => {
-  throw new Error("Not implemented");
   return (
     <div className="container">
       <ExerciseTitle
-        title="Challenge Exercise: Combined Selectors"
-        content="Style a paragraph where only the **first word** is bold and colored differently. Use combinators and pseudo-classes to style specific words, such as italicizing every **third word** and highlighting words that contain the letter 'e'."
+        title="Positioning with Margins and Padding"
+        content="Create a layout with multiple boxes in a row. Use padding and margins to space them evenly. Try to achieve equal spacing around each box and practice adjusting margins to control spacing between elements without affecting alignment."
       />
-      <p>Solution</p>
-      <p>
-        <span className={styles.firstWord}>Hello</span> this is a{" "}
-        <span className={styles.highlight}>test</span> paragraph where{" "}
-        <span className={styles.thirdWord}>every</span> third word is{" "}
-        <span className={styles.thirdWord}>italicized</span>.
-      </p>
+      <div className={styles.parent}>
+        <div className={styles.child}>
+          <button className={styles.myButton}>Click Me</button>
+          <button className={styles.myButton}>Click Me</button>
+          <button className={styles.myButton}>Click Me</button>
+        </div>
+      </div>
     </div>
   );
 };

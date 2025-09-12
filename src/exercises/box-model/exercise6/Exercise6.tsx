@@ -3,20 +3,16 @@ import ExerciseTitle from "../../ExerciseTitle";
 import styles from "./exercise6.module.css";
 
 const Exercise6: React.FC = () => {
-  throw new Error("Not implemented");
   return (
     <div className="container">
       <ExerciseTitle
-        title="Combinator"
-        content="Exercise 6: Add multiple elements (like p, h2, span) within a parent container and use the general sibling combinator (~) to style elements following a certain type. "
+        title="Padding"
+        content="Create a div with a background color and add text inside it. Experiment with different padding values on all sides (top, right, bottom, left) to see how padding affects the inner space around the text and the size of the div."
       />
-      <p>Solution</p>
-      <div className={styles.general_sibling}>
-        <h2>I am header</h2>
-        <p>I am paragraph 1 a general sibling of h2</p>
-        <span>I am span 1 a general sibling of h2</span>
-        <p>I am paragraph 2 a general sibling of h2</p>
-        <span>I am span 2 a general sibling of h2</span>
+      <div className={styles.parent}>
+        <div className={`${styles.boxStyle} ${styles.first}`}>
+          <p>I have a same padding of 30px on all sides</p>
+        </div>
       </div>
     </div>
   );

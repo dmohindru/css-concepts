@@ -3,16 +3,14 @@ import ExerciseTitle from "../../ExerciseTitle";
 import styles from "./exercise10.module.css";
 
 const Exercise10: React.FC = () => {
-  throw new Error("Not implemented");
   return (
     <div className="container">
       <ExerciseTitle
-        title="Pseudo-classes"
-        content="Create a buttons and style with the :hover and :focus states with different background and text colors."
+        title="Border"
+        content="Create a card component with different borders on each side (e.g., a thicker border on the bottom to simulate a 'shadow' effect). Use different colors and styles for each side of the border."
       />
-      <p>Solution</p>
-      <div>
-        <button className={styles.button}>Button</button>
+      <div className={styles.parent}>
+        <div className={styles.first}></div>
       </div>
     </div>
   );

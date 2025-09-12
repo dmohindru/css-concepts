@@ -1,13 +1,33 @@
-.dataAction button[data-action="delete"] {
-  background-color: red;
-  color: #fff;
-  margin-top: 10px;
-  margin-bottom: 10px;
+.parent {
+  width: 400px;
+  height: 800px;
+  border: 2px solid black;
+  padding: 20px;
+  margin-left: 20px;
 }
 
-.dataAction button[data-action="save"] {
-    background-color: green;
-    color: #fff;
-    margin-top: 10px;
-    margin-bottom: 10px;
+.boxSize {
+  width: 200px;
+  height: 200px;
+}
+
+.first {
+  border-width: 10px;
+  border-style: dashed;
+  border-color: lightseagreen;
+  box-sizing: border-box;
+}
+
+.second {
+  border-width: 5px;
+  border-style: dotted;
+  border-color: lightcoral;
+  box-sizing: border-box;
+}
+
+.third {
+  border-width: 20px;
+  border-style:groove;
+  border-color: lightgreen;
+  box-sizing: border-box;
 }

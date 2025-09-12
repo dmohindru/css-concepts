@@ -3,20 +3,26 @@ import ExerciseTitle from "../../ExerciseTitle";
 import styles from "./exercise2.module.css";
 
 const Exercise2: React.FC = () => {
-  throw new Error("Not implemented");
-  const exerciseTitle = `Exercise2: Make a simple list with multiple <li> elements. 
-  Use a class selector to style specific items (e.g., make every item with the class highlight have a yellow background).`;
+  const exerciseTitle = `Experiment with the box-sizing property by creating two div elements, each with the same width and height, but set box-sizing: content-box for one and box-sizing: border-box for the other. Observe the differences in their rendered sizes.`;
   return (
     <div className="container">
-      <ExerciseTitle title="Basic Selector" content={exerciseTitle} />
-      <p>Solution</p>
-      <ol>
-        <li>First</li>
-        <li className={styles.blueBackground}>Second</li>
-        <li>Third</li>
-        <li className={styles.blueBackground}>Fourth</li>
-        <li>Fifth</li>
-      </ol>
+      <ExerciseTitle title="Box Model" content={exerciseTitle} />
+      <div className={styles.parent}>
+        <div className={`${styles.boxStyle} ${styles.borderBox}`}>
+          <p>
+            I have a<br></br>box-sizing: border-box
+            <br></br>width: 200px
+            <br></br>height: 200px
+          </p>
+        </div>
+        <div className={`${styles.boxStyle} ${styles.contentBox}`}>
+          <p>
+            I have a<br></br>box-sizing: content-box
+            <br></br>width: 200px
+            <br></br>height: 200px
+          </p>
+        </div>
+      </div>
     </div>
   );
 };

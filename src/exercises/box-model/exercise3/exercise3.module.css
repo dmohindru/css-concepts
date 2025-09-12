@@ -1,4 +1,29 @@
-.descendant div p {
-    background-color: black;
-    color: white;
+.parent {
+    width: 400px;
+    height: 800px;
+    border: 2px solid black;
+    margin-left: 20px;
+}
+
+.boxStyle {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+}
+
+.first {
+    background-color: lightcoral;
+    margin-left: 10px;
+}
+
+.second {
+    background-color: lightgray;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+
+.third {
+    background-color: lightblue;
+    margin-top: 40px;
+    margin-left: 40px;
 }

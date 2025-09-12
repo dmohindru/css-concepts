@@ -1,21 +1,35 @@
-div {
-    font-weight: bold;
-    margin-top: 5px;
-    margin-bottom: 5px;
+.parent {
+    width: 400px;
+    height: 800px;
+    border: 2px solid black;
+    margin-left: 20px;
 }
 
-.box {
-    background-color: lightblue;
+p {
+    background-color: blue;
+    color: white;
 }
 
-.circle {
-    background-color: lightgreen;
+.boxStyle {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
 }
 
-.triangle {
-    background-color: lightcoral;
+.first {
+    margin: 10px;
+    padding: 50px;
+    background-color: red;
 }
 
-#square {
-    background-color: lightyellow;
+.second {
+    margin-left: 50px;
+    padding: 10px;
+    background-color: red;
+}
+
+.third {
+    margin-left: -10px;
+    padding: 5px;
+    background-color: red;
 }

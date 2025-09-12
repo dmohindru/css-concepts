@@ -1,13 +1,25 @@
-.formText input[type="text"] {
-  background-color: black;
-  color: white;
+.parent {
+  width: 400px;
+  height: 800px;
+  border: 2px solid black;
+  margin-left: 20px;
 }
 
-.formText input[type="password"] {
-    background-color: darkred;
-    color: white;
+.buttonSymmetric {
+  margin: 50px;
+  background-color: lightcoral;
+  color: black;
+  width: 100px;
+  height: 50px;
+  padding: 5px
 }
 
-.formText input[type="email"] {
-    background-color: darkorange;
+.buttonAsymmetric {
+  margin: 50px;
+  background-color: lightcoral;
+  color: black;
+  width: 100px;
+  height: 50px;
+  padding-left: 5px;
+  padding-right: 30px;
 }
